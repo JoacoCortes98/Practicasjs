@@ -26,3 +26,16 @@ do{
 //   document.write('<br>Mate cebado N: ' + cantidadMates);
 //   cantidadMates--;
 // }while( cantidadMates >= 1)
+
+// Ejemplo bucle for 
+
+/*  
+  for(inicializar una variable; condicion logica; modificr el valor de la variable){
+    todo el codigo que quiero ejecutar muchas veces
+  }
+
+*/
+
+for(let mates = 20; mates >= 1; mates--){
+  document.write('Mate cebado N: ' + mates + '<br>');
+}
