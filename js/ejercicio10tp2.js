@@ -12,11 +12,12 @@ document.write(`<table class="tablaDatos">
 <tbody>`);
 // aqui tengo que dibujar las filas
 for (let iFilas = 0; iFilas < filas; iFilas++) {
-  document.write(`
-    <tr>
-        <td>Hola</td>
-        <td>Mundo</td>
-    </tr>`);
+  document.write(`<tr>`);
+  // aqui dibujo la cantidad de columnas
+  for (let iColumnas = 0; iColumnas < columnas; iColumnas++) {
+    document.write(`<td>`+ iColumnas + `</td>`);
+  }
+  document.write(`</tr>`);
 }
 document.write(`</tbody>
 </table>`);
