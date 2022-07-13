@@ -1,0 +1,6 @@
+.tablaDatos, td {
+border: solid 1px royalblue;
+}
+td{
+    padding: 5px;
+}
