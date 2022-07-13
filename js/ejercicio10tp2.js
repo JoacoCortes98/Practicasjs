@@ -4,6 +4,7 @@
 
 let filas = parseInt(prompt("Ingrese un numero de filas"));
 let columnas = parseInt(prompt("Ingrese un numero de columnas"));
+let resultado = filas * columnas;
 
 console.log(filas);
 console.log(columnas);
@@ -15,7 +16,8 @@ for (let iFilas = 0; iFilas < filas; iFilas++) {
   document.write(`<tr>`);
   // aqui dibujo la cantidad de columnas
   for (let iColumnas = 0; iColumnas < columnas; iColumnas++) {
-    document.write(`<td>`+ iColumnas + `</td>`);
+    document.write(`<td>${resultado}</td>`);
+    resultado--;
   }
   document.write(`</tr>`);
 }
